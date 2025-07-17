@@ -36,7 +36,7 @@ export function Layout({ children, activeSection = 'list', onSectionChange }: La
             <Group gap="xs">
               <IconPackage size={28} color="var(--mantine-color-blue-6)" />
               <Title order={3} c="blue">
-                Produtos Manager
+                Products Manager
               </Title>
             </Group>
           </Group>
