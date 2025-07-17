@@ -29,6 +29,11 @@ export function useProducts() {
       return newProduct;
     } catch (err) {
       const errorMessage = err instanceof Error ? err.message : 'Erro ao criar produto';
+      notifications.show({
+        title: 'Erro',
+        message: errorMessage,
+        color: 'red',
+      });
     }
   };
 

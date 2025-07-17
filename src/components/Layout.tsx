@@ -1,4 +1,4 @@
-import { AppShell, Burger, Group, Text, Title, NavLink, rem, Badge } from '@mantine/core';
+import { AppShell, Burger, Group, Title, NavLink, rem, Badge } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import { IconPackage, IconHome, IconPlus, IconList, IconCategory } from '@tabler/icons-react';
 import type { ReactNode } from 'react';
